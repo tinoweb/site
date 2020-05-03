@@ -249,21 +249,19 @@
                             </div>
                         </div>
                         
-
                         <div class="col-md-3">
                             <div class="card cardProjeto">
                               <div class="view overlay">
-                                <img class="card-img-top" src="img/photoapp.png" alt="Card image cap">
-                                <a href="https://tirafoto.herokuapp.com/" target="_blank">
+                                <img class="card-img-top" src="img/dnre.png" alt="Card image cap">
+                                <a data-toggle="modal" data-target="#modalDetalheDNRE">
                                   <div class="mask rgba-white-slight"></div>
                                 </a>
                               </div>
                               <div class="card-body">
-                                <a href="https://tirafoto.herokuapp.com/" target="_blank" class="btn btn-primary btn-block btn-rounded purple-gradient btn-sm">Visualizar <i class="fa fa-eye"></i></a>
+                                <a data-toggle="modal" data-target="#modalDetalheDNRE" class="btn btn-blue-grey btn-block btn-rounded btn-sm" disabled>Site fora do ar <i class="fa fa-eye"></i></a>
                               </div>
                             </div>
                         </div>
-                        
                        
                     </div>
                     <hr>
@@ -277,7 +275,7 @@
                                 </a>
                               </div>
                               <div class="card-body">
-                                <a data-toggle="modal" data-target="#modalDetalhePainelImovel" class="btn btn-primary btn-block btn-rounded purple-gradient btn-sm"> Informações <i class="fa fa-eye"></i></a>
+                                <a data-toggle="modal" data-target="#modalDetalhePainelImovel" class="btn btn-primary btn-block btn-rounded orange-gradient btn-sm"> Informações <i class="fa fa-eye"></i></a>
                               </div>
                             </div>
                         </div>
@@ -348,13 +346,13 @@
                         <div class="col-md-3">
                             <div class="card cardProjeto">
                               <div class="view overlay">
-                                <img class="card-img-top" src="img/Emporium.png" alt="Card image cap">
+                                <img class="card-img-top" src="img/smart_BMC.png" alt="Card image cap">
                                 <a>
                                   <div class="mask rgba-white-slight"></div>
                                 </a>
                               </div>
                               <div class="card-body">
-                                <a data-toggle="modal" data-target="#modalDetalheImporium" class="btn btn-blue-grey btn-block btn-rounded btn-sm"> Site fora do ar <i class="fa fa-eye"></i></a>
+                                <a href="http://painel.smartbmc.com.br/" target="blank" class="btn btn-primary btn-block btn-rounded purple-gradient btn-sm">Visualizar <i class="fa fa-eye"></i></a>
                               </div>
                             </div>
                         </div>
@@ -362,13 +360,13 @@
                         <div class="col-md-3">
                             <div class="card cardProjeto">
                               <div class="view overlay">
-                                <img class="card-img-top" src="img/dnre.png" alt="Card image cap">
-                                <a data-toggle="modal" data-target="#modalDetalheDNRE">
+                                <img class="card-img-top" src="img/superlogica.png" alt="Card image cap">
+                                <a>
                                   <div class="mask rgba-white-slight"></div>
                                 </a>
                               </div>
                               <div class="card-body">
-                                <a data-toggle="modal" data-target="#modalDetalheDNRE" class="btn btn-blue-grey btn-block btn-rounded btn-sm" disabled>Site fora do ar <i class="fa fa-eye"></i></a>
+                                <a target="blank" data-toggle="modal" data-target="#detalheSuperlogica" class="btn btn-primary btn-block btn-rounded orange-gradient btn-sm"> Informações <i class="fa fa-eye"></i></a>
                               </div>
                             </div>
                         </div>
@@ -383,6 +381,37 @@
                               </div>
                               <div class="card-body">
                                 <a href="" data-toggle="modal" data-target="#modalDetalheNovelis" class="btn btn-blue-grey btn-block btn-rounded btn-sm"> Site fora do ar <i class="fa fa-eye"></i></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row wow fadeIn">
+                        <div class="col-md-3">
+                            <div class="card cardProjeto">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="img/Emporium.png" alt="Card image cap">
+                                <a>
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body">
+                                <a data-toggle="modal" data-target="#modalDetalheImporium" class="btn btn-blue-grey btn-block btn-rounded btn-sm"> Site fora do ar <i class="fa fa-eye"></i></a>
+                              </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-md-3">
+                            <div class="card cardProjeto">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="img/photoapp.png" alt="Card image cap">
+                                <a href="https://tirafoto.herokuapp.com/" target="_blank">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body">
+                                <a href="https://tirafoto.herokuapp.com/" target="_blank" class="btn btn-primary btn-block btn-rounded purple-gradient btn-sm">Visualizar <i class="fa fa-eye"></i></a>
                               </div>
                             </div>
                         </div>
@@ -521,21 +550,22 @@
     </div> 
 
     <!-- Modal trioEspuleta-->
-    <div class="modal fade" id="modalDetalheTrio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="detalheSuperlogica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <form action="#" method="POST">    
-                    <div class="modal-header">
-                        <h4 class="modal-title w-100">Detalhes</h4>
+                    <div class="modal-header orange-gradient">
+                        <h4 class="modal-title w-100 text-white">Detalhes</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <p>
-                            Site encomendado pela Doutora Leda Pinto, com objetivo de apresentar os livros didáticos
-                            para crianças poderem enteder e compreender melhor o seu corpo e como deve ser cuidada. O projeto não 
-                            se encontra mais no ar funcionando, mas pode ser conferida a pagina do facebook do projeto. <a target="blank" href="https://www.facebook.com/trioespuleta/?ref=page_internal">Ir para pagina do facebook</a>
+                            Nesse projeto da superlogica As tarefas era fazer manutenção e criação de 
+                            funcionalidades novas para sistema plataforma o qual dependia toda as aplicações
+                            da empresa e dos seus calaboradores, Sistema 
+                            desenvolvido com Zend framework com classes e extruturas modificadas pela empresa. <a target="blank" href="https://superlogica.net/clients/">Ir para o login do sitema</a>
                         </p>
                     </div>
                 </form>
@@ -549,7 +579,7 @@
             <div class="modal-content">
                 <form action="#" method="POST">    
                     <div class="modal-header blue-gradient">
-                        <h4 class="modal-title w-100 ">Detalhes</h4>
+                        <h4 class="modal-title w-100 text-white">Detalhes</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">×</span>
                         </button>
